@@ -108,3 +108,29 @@ The finding requires further investigation to establish whether the access is au
 No live accounts or permissions have been changed.
 
 This report forms part of a fictional cybersecurity laboratory designed to demonstrate IAM access validation, least privilege, RBAC, and risk-based investigation.
+
+## 10. Simulated Stakeholder Validation
+
+### Customer Service Manager Response
+
+The manager confirmed that EMP005 requires CRM Read/Write access for normal duties.
+
+The manager did not approve administrator access to the IT Administration system.
+
+### IT Application Owner Response
+
+The application owner reported that no approved access request or documented exception was found for EMP005's administrator permission.
+
+### Analyst Assessment
+
+The simulated stakeholder responses do not establish a legitimate business justification for the administrator permission.
+
+Recommended decision: Escalate the finding and request authorised removal of the excessive privilege while preserving legitimate CRM access.
+
+### Current Status
+
+Validation exercise completed using fictional stakeholder responses.
+
+Remediation recommended but not implemented.
+
+Provisioning history, privileged activity, and post-remediation verification remain outstanding.
