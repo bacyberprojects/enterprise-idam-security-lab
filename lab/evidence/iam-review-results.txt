@@ -2,10 +2,9 @@ SCFS - IAM ACCESS REVIEW
 ============================================================
 Employees reviewed: 50
 Permission assignments reviewed: 60
-Findings: 5
+Findings: 4
 ============================================================
 EMP003 | RBAC VIOLATION | Finance Officer has Read/Write access to HR System
-EMP005 | RBAC VIOLATION | Customer Service Officer has Admin access to IT Administration
 EMP008 | LEAVER RISK | Terminated employee retains HR System access
 EMP009 | MOVER REVIEW | Validate CRM access against the new role
 EMP009 | MOVER REVIEW | Validate Operations System access against the new role
