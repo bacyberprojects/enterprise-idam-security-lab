@@ -55,9 +55,19 @@ All information is part of a fictional cybersecurity laboratory.
 
 ## 7. Current Verification Result
 
-Verification has not yet been performed.
+## 7. Current Verification Result
 
-The finding remains open until the simulated remediation is completed and supporting evidence is documented.
+**Verification Status:** Passed — Automated RBAC Check
+
+After updating `access_permissions.csv`, the IAM access review script was executed again.
+
+**Results:**
+- EMP005's unauthorised IT Administration access was removed from the simulated permissions data.
+- EMP005 was assigned CRM Read/Write access according to the RBAC matrix.
+- The automated access review no longer reports EMP005 as an RBAC violation.
+- Four other findings remain and require separate investigation.
+
+**Conclusion:** The simulated remediation for EMP005 passed automated verification. No live organisation accounts or permissions were changed.
 
 ## 8. Disclaimer
 
