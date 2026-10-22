@@ -1,0 +1,51 @@
+Employee_ID,Name,Department,Role,Status
+EMP001,Aarav Sharma,Finance,Finance Officer,Active
+EMP002,Emma Wilson,HR,HR Officer,Active
+EMP003,Noah Patel,Finance,Finance Officer,Active
+EMP004,Olivia Brown,Operations,Operations Officer,Active
+EMP005,Liam Taylor,Customer Service,Customer Service Officer,Active
+EMP006,Sophia Chen,IT,IT Administrator,Active
+EMP007,Ethan Davis,Finance,Finance Officer,Active
+EMP008,Mia Thompson,HR,HR Officer,Terminated
+EMP009,Lucas Martin,Operations,Operations Officer,Transferred
+EMP010,Isabella White,Customer Service,Customer Service Officer,Active
+EMP011,Charlotte Lee,IT,IT Administrator,Active
+EMP012,William Harris,IT,IT Administrator,Active
+EMP013,Amelia Clark,IT,IT Administrator,Active
+EMP014,James Walker,IT,IT Administrator,Active
+EMP015,Grace Nguyen,IT,IT Administrator,Active
+EMP016,Henry Scott,IT,IT Administrator,Active
+EMP017,Chloe Adams,IT,IT Administrator,Active
+EMP018,Daniel Wright,IT,IT Administrator,Active
+EMP019,Emily Roberts,IT,IT Administrator,Active
+EMP020,Jack Mitchell,Finance,Finance Officer,Active
+EMP021,Harper Lewis,Finance,Finance Officer,Active
+EMP022,Oliver Young,Finance,Finance Officer,Active
+EMP023,Abigail King,Finance,Finance Officer,Active
+EMP024,Thomas Hall,Finance,Finance Officer,Active
+EMP025,Evie Allen,Finance,Finance Officer,Active
+EMP026,Samuel Green,Finance,Finance Officer,Active
+EMP027,Jessica Baker,HR,HR Officer,Active
+EMP028,Benjamin Nelson,HR,HR Officer,Active
+EMP029,Lily Carter,HR,HR Officer,Active
+EMP030,Alexander Hill,HR,HR Officer,Active
+EMP031,Zoe Campbell,HR,HR Officer,Active
+EMP032,Joshua Turner,HR,HR Officer,Active
+EMP033,Scarlett Parker,HR,HR Officer,Active
+EMP034,Max Cooper,HR,HR Officer,Active
+EMP035,Ella Morris,Operations,Operations Officer,Active
+EMP036,Charlie Reed,Operations,Operations Officer,Active
+EMP037,Aria Bailey,Operations,Operations Officer,Active
+EMP038,Leo Richardson,Operations,Operations Officer,Active
+EMP039,Freya Cox,Operations,Operations Officer,Active
+EMP040,Oscar Howard,Operations,Operations Officer,Active
+EMP041,Ruby Ward,Operations,Operations Officer,Active
+EMP042,Archie Brooks,Operations,Operations Officer,Active
+EMP043,Matilda Price,Customer Service,Customer Service Officer,Active
+EMP044,George Bennett,Customer Service,Customer Service Officer,Active
+EMP045,Poppy Wood,Customer Service,Customer Service Officer,Active
+EMP046,Harry Foster,Customer Service,Customer Service Officer,Active
+EMP047,Evie Russell,Customer Service,Customer Service Officer,Active
+EMP048,Jacob Hughes,Customer Service,Customer Service Officer,Active
+EMP049,Florence Kelly,Customer Service,Customer Service Officer,Active
+EMP050,Isaac Murphy,Customer Service,Customer Service Officer,Active
