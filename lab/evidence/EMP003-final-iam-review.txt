@@ -1,0 +1,11 @@
+SCFS - IAM ACCESS REVIEW
+============================================================
+Employees reviewed: 50
+Permission assignments reviewed: 60
+Findings: 3
+============================================================
+EMP008 | LEAVER RISK | Terminated employee retains HR System access
+EMP009 | MOVER REVIEW | Validate CRM access against the new role
+EMP009 | MOVER REVIEW | Validate Operations System access against the new role
+
+Review completed. Findings require analyst validation.

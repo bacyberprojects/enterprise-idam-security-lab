@@ -1,7 +1,7 @@
 Employee_ID,Application,Permission
 EMP001,Finance System,Read/Write
 EMP002,HR System,Read/Write
-EMP003,HR System,Read/Write
+EMP003,Finance System,Read/Write
 EMP004,CRM,Read
 EMP005,CRM,Read/Write
 EMP004,Operations System,Read/Write
