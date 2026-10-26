@@ -1,0 +1,5 @@
+Employee_ID,Identity_Provider,Account_Status,MFA_Enabled
+EMP003,Microsoft Entra ID,Enabled,Yes
+EMP005,Microsoft Entra ID,Enabled,Yes
+EMP008,Microsoft Entra ID,Disabled,Yes
+EMP009,Microsoft Entra ID,Enabled,Yes

@@ -1,0 +1,61 @@
+Employee_ID,Application,Permission
+EMP001,Finance System,Read/Write
+EMP002,HR System,Read/Write
+EMP003,Finance System,Read/Write
+EMP004,CRM,Read
+EMP005,CRM,Read/Write
+EMP004,Operations System,Read/Write
+EMP006,IT Administration,Admin
+EMP007,Finance System,Read/Write
+EMP008,HR System,Read/Write
+EMP009,CRM,Read
+EMP009,Operations System,Read/Write
+EMP010,CRM,Read/Write
+EMP011,IT Administration,Admin
+EMP012,IT Administration,Admin
+EMP013,IT Administration,Admin
+EMP014,IT Administration,Admin
+EMP015,IT Administration,Admin
+EMP016,IT Administration,Admin
+EMP017,IT Administration,Admin
+EMP018,IT Administration,Admin
+EMP019,IT Administration,Admin
+EMP020,Finance System,Read/Write
+EMP021,Finance System,Read/Write
+EMP022,Finance System,Read/Write
+EMP023,Finance System,Read/Write
+EMP024,Finance System,Read/Write
+EMP025,Finance System,Read/Write
+EMP026,Finance System,Read/Write
+EMP027,HR System,Read/Write
+EMP028,HR System,Read/Write
+EMP029,HR System,Read/Write
+EMP030,HR System,Read/Write
+EMP031,HR System,Read/Write
+EMP032,HR System,Read/Write
+EMP033,HR System,Read/Write
+EMP034,HR System,Read/Write
+EMP035,CRM,Read
+EMP035,Operations System,Read/Write
+EMP036,CRM,Read
+EMP036,Operations System,Read/Write
+EMP037,CRM,Read
+EMP037,Operations System,Read/Write
+EMP038,CRM,Read
+EMP038,Operations System,Read/Write
+EMP039,CRM,Read
+EMP039,Operations System,Read/Write
+EMP040,CRM,Read
+EMP040,Operations System,Read/Write
+EMP041,CRM,Read
+EMP041,Operations System,Read/Write
+EMP042,CRM,Read
+EMP042,Operations System,Read/Write
+EMP043,CRM,Read/Write
+EMP044,CRM,Read/Write
+EMP045,CRM,Read/Write
+EMP046,CRM,Read/Write
+EMP047,CRM,Read/Write
+EMP048,CRM,Read/Write
+EMP049,CRM,Read/Write
+EMP050,CRM,Read/Write

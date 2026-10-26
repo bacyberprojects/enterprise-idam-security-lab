@@ -28,6 +28,51 @@ Likelihood and Impact are scored from 1 (lowest) to 5 (highest).
 | IAM-004 | Employee retains old permissions after changing departments | 4 | 4 | 16 | High | Review and update permissions during mover events |
 | IAM-005 | Access permissions are not reviewed periodically | 3 | 4 | 12 | High | Conduct quarterly access reviews with documented approvals |
 | IAM-006 | Employee account lacks required MFA protection | 3 | 5 | 15 | High | Enforce appropriate MFA policies and monitor exceptions |
+| IAM-007 | EMP008: Terminated HR employee retains HR System Read/Write permission | 4 | 5 | 20 | Critical | Revoke retained HR access; verify account disablement, sessions and other entitlements; retain risk open pending additional verification |
+### IAM-007 — Post-Remediation Risk Update
+
+**Case:** EMP008 — Terminated HR Employee
+
+**Original Risk Assessment**
+- Likelihood: 4/5
+- Impact: 5/5
+- Score: 20/25
+- Rating: Critical
+
+**Simulated Remediation**
+- HR System permission removed.
+- Identity account disabled.
+- Active session revoked.
+- Refresh token revoked.
+- Automated IAM review completed with no EMP008 findings.
+
+**Proposed Residual Risk Assessment**
+- Likelihood: 2/5
+- Impact: 5/5
+- Score: 10/25
+- Rating: High
+
+**Outstanding Verification**
+- Application-specific session invalidation.
+- Actual token invalidation.
+- Identity-provider audit and sign-in logs.
+- Other application and device access.
+- Independent verification of security controls.
+
+**Risk Status**
+- Simulated technical remediation: Completed.
+- Automated CSV-based verification: Passed.
+- Residual risk: High (provisional).
+- Risk-owner approval: Pending.
+- Formal risk closure: Pending.
+
+**Supporting Evidence**
+- lab/investigations/EMP008-risk-assessment.md
+- lab/evidence/EMP008-identity-post-remediation-review.txt
+- lab/evidence/EMP008-session-token-post-remediation-review.txt
+
+**Note:** All identities, approvals and remediation actions
+are fictional. No production systems were modified.
 
 ## Risk Treatment Process
 1. Identify the IAM risk and affected systems.

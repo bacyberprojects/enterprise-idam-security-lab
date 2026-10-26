@@ -37,15 +37,70 @@ def read_csv(filename):
 def review_access():
     employees = read_csv("employees.csv")
     permissions = read_csv("access_permissions.csv")
+    identity_accounts = read_csv("identity_accounts.csv")
+    session_records = read_csv("identity_sessions.csv")
+
 
     # Match each employee ID to their HR record.
     employee_lookup = {
         employee["Employee_ID"]: employee
         for employee in employees
     }
+    # Match each identity account to its employee ID.
+    identity_lookup = {
+    account["Employee_ID"]: account
+    for account in identity_accounts
+
+    }
 
     findings = []
+    # Check identity accounts against HR employment status.
+    for employee in employees:
+        employee_id = employee["Employee_ID"]
+        employment_status = employee["Status"]
 
+        identity = identity_lookup.get(employee_id)
+
+        if employment_status == "Terminated":
+            if identity is None:
+                findings.append(
+                    (employee_id, "IDENTITY VERIFICATION GAP",
+                     "Terminated employee has no identity account record")
+                )
+
+            elif identity["Account_Status"] == "Enabled":
+                findings.append(
+                    (employee_id, "LEAVER IDENTITY RISK",
+                     "Terminated employee has an enabled identity account")
+                )
+
+
+    # Check sessions and refresh tokens for terminated employees.
+    
+    
+    for session in session_records:
+        employee_id = session["Employee_ID"]
+        employee = employee_lookup.get(employee_id)
+
+        if employee is None:
+            findings.append(
+                (employee_id, "UNKNOWN SESSION IDENTITY",
+                 "Session belongs to an employee not in the HR register")
+            )
+            continue
+
+        if employee["Status"] == "Terminated":
+            if session["Session_Status"] == "Active":
+                findings.append(
+                    (employee_id, "LEAVER SESSION RISK",
+                     "Terminated employee retains an active session")
+                )
+
+            if session["Refresh_Token_Status"] == "Active":
+                findings.append(
+                    (employee_id, "LEAVER TOKEN RISK",
+                     "Terminated employee retains an active refresh token")
+                )
     for access in permissions:
         employee_id = access["Employee_ID"]
         application = access["Application"]

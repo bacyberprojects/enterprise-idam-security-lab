@@ -1,0 +1,5 @@
+Employee_ID,Session_ID,Session_Status,Refresh_Token_Status
+EMP003,SES-1001,Active,Active
+EMP005,SES-1002,Active,Active
+EMP008,SES-1008,Active,Active
+EMP009,SES-1009,Active,Active

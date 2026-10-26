@@ -1,0 +1,12 @@
+SCFS - IAM ACCESS REVIEW
+============================================================
+Employees reviewed: 50
+Permission assignments reviewed: 59
+Findings: 4
+============================================================
+EMP008 | LEAVER SESSION RISK | Terminated employee retains an active session
+EMP008 | LEAVER TOKEN RISK | Terminated employee retains an active refresh token
+EMP009 | MOVER REVIEW | Validate CRM access against the new role
+EMP009 | MOVER REVIEW | Validate Operations System access against the new role
+
+Review completed. Findings require analyst validation.
