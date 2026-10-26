@@ -7,8 +7,7 @@ EMP005,CRM,Read/Write
 EMP004,Operations System,Read/Write
 EMP006,IT Administration,Admin
 EMP007,Finance System,Read/Write
-EMP009,CRM,Read
-EMP009,Operations System,Read/Write
+EMP009,CRM,Read/Write
 EMP010,CRM,Read/Write
 EMP011,IT Administration,Admin
 EMP012,IT Administration,Admin

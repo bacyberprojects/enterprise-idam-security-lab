@@ -1,0 +1,9 @@
+SCFS - IAM ACCESS REVIEW
+============================================================
+Employees reviewed: 50
+Permission assignments reviewed: 58
+Findings: 1
+============================================================
+EMP009 | MOVER REVIEW | Validate CRM access against the new role
+
+Review completed. Findings require analyst validation.

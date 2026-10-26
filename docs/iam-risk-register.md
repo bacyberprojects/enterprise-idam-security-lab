@@ -91,4 +91,60 @@ are fictional. No production systems were modified.
 - Privileged-access risks require prompt escalation.
 
 ## Project Scope
-This is a simulated IAM risk assessment using fictional identities and systems. No production environment was assessed.
+## IAM-008 — EMP009 Mover Access Risk
+
+**Employee:** EMP009 — Lucas Martin
+
+**Risk Category:** Identity and Access Management — Privilege Creep
+
+**Risk Description:**
+Following a simulated transfer from Operations Officer to
+Customer Service Officer, EMP009 retained Operations System
+Read/Write access that was no longer required.
+
+The employee also initially lacked the CRM Read/Write
+permission required for the new role.
+
+**Inherent Risk Assessment:**
+- Likelihood: 4 — Likely
+- Impact: 4 — Major
+- Risk Score: 16
+- Risk Rating: High
+
+**Simulated Treatment Completed:**
+- Removed Operations System access.
+- Updated CRM permission to Read/Write.
+- Updated the fictional HR record to reflect the new role.
+- Verified the resulting permissions against the RBAC matrix.
+
+**Proposed Residual Risk:**
+- Likelihood: 2 — Unlikely
+- Impact: 4 — Major
+- Risk Score: 8
+- Risk Rating: Medium
+
+**Verification Evidence:**
+- lab/evidence/EMP009-remediation-verification.md
+- lab/evidence/EMP009-final-access-review.md
+- lab/evidence/EMP009-post-remediation-review.txt
+
+**Remaining Finding:**
+The automated review continues to flag EMP009 for mover
+validation because the employment status is Transferred.
+
+The CRM Read/Write permission matches the simulated
+Customer Service Officer role.
+
+**Risk Status:** Open — Technical remediation completed
+in simulation; formal closure pending.
+
+**Outstanding Actions:**
+- IAM analyst sign-off
+- Application-owner confirmation where required
+- Risk-owner validation of the residual risk
+- Formal closure decision
+
+**Risk Owner:** To be assigned in the simulated scenario.
+
+**Note:** All records, approvals, and remediation activities
+are fictional. No production systems were modified.
