@@ -34,19 +34,19 @@ The lab uses fictional employee records, simulated identity accounts, applicatio
 
 ## IAM Security Investigations
 
-### EMP005 — Excessive Privileged Access
+### [EMP005 — Excessive Privileged Access](lab/investigations/EMP005-investigation.md)
 
 Investigated an employee with excessive administrative permissions.
 
 Demonstrated RBAC validation, least-privilege assessment, simulated remediation and verification.
 
-### EMP008 — Terminated Employee Retaining Access
+### [EMP008 — Terminated Employee Retaining Access](lab/investigations/EMP008-investigation.md)
 
 Investigated a terminated employee who retained application access and an enabled identity account with active session and refresh-token records.
 
 Demonstrated leaver risk assessment, simulated account disablement, session and token revocation, and post-remediation verification.
 
-### EMP009 — Employee Role Transfer
+### [EMP009 — Employee Role Transfer](lab/investigations/EMP009-investigation.md)
 
 Investigated an employee transferring from Operations Officer to Customer Service Officer.
 
